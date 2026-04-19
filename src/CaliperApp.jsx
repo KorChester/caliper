@@ -8,7 +8,7 @@ import {
 //  APP META
 // ============================================================================
 
-const APP_VERSION = "1.3.0";
+const APP_VERSION = "1.3.1";
 const APP_AUTHOR  = "Chang";
 const APP_URL     = "http://www.physiques-unlimited.de";
 
@@ -876,7 +876,7 @@ export default function CaliperApp() {
         <div className="flex items-start justify-between border-b-2 border-black pb-3 mb-5">
           <div>
             <h1 className="text-2xl font-bold">Caliper-Messprotokoll</h1>
-            <div className="text-xs mt-1">Physiques Unlimited · made by {APP_AUTHOR}</div>
+            <div className="text-xs mt-1">Physiques Unlimited</div>
           </div>
           <div className="text-right text-xs">
             <div><strong>Datum:</strong> {today}</div>
