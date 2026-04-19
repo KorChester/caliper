@@ -1,0 +1,19 @@
+{
+  "name": "Caliper · Körperfett-Rechner",
+  "short_name": "Caliper",
+  "description": "Präziser Körperfett-Rechner mit Hautfaltenmessung. 4 wissenschaftliche Formeln, visuelle Messpunkte, PDF-Export.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "lang": "de",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
