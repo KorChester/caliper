@@ -8,7 +8,7 @@ import {
 //  APP META
 // ============================================================================
 
-const APP_VERSION = "1.3.1";
+const APP_VERSION = "1.3.2";
 const APP_AUTHOR  = "Chang";
 const APP_URL     = "http://www.physiques-unlimited.de";
 
@@ -961,9 +961,10 @@ export default function CaliperApp() {
           </>
         )}
 
-        <div className="mt-8 pt-3 border-t border-gray-400 text-xs text-gray-600">
-          Berechnung Siri (1961): BF% = (495 / Körperdichte) − 450.
-          Generiert mit Caliper v{APP_VERSION} · {APP_URL}
+        <div className="mt-8 pt-3 border-t border-gray-400 text-xs text-gray-600 space-y-1">
+          <div>Berechnung Siri (1961): BF% = (495 / Körperdichte) − 450</div>
+          <div>Generiert mit Caliper v{APP_VERSION}</div>
+          <div>{APP_URL}</div>
         </div>
       </div>
 
